@@ -1,0 +1,9 @@
+[build]
+builder = "dockerfile"
+dockerfilePath = "railway.dockerfile"
+
+[deploy]
+healthcheckPath = "/health.php"
+healthcheckTimeout = 300
+restartPolicyType = "on_failure"
+restartPolicyMaxRetries = 10
