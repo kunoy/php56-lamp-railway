@@ -1,0 +1,49 @@
+# Docker
+.env
+docker-compose.override.yml
+
+# Logs
+*.log
+logs/
+/var/log/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# PHP
+vendor/
+composer.lock
+.env.local
+
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Temporary files
+*.tmp
+*.temp
+/tmp/
+
+# Database
+*.sql
+*.db
+*.sqlite
+
+# SSL certificates (development only)
+*.pem
+*.key
+*.crt
+config/ssl/
+
+# Local development
+.env.development
+.env.production
